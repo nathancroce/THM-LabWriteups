@@ -1,10 +1,10 @@
 ---
 description: >-
-  In this challenge room, we will take a simple challenge to investigate an
-  alert by IDS regarding a potential C2 communication.
+  5/25/24 - In this challenge room, we will take a simple challenge to
+  investigate an alert by IDS regarding a potential C2 communication.
 ---
 
-# ItsyBitsy
+# ItsyBitsy - ELK
 
 ## Intro
 
