@@ -17,21 +17,21 @@ Our task in this room will be to examine the network connection logs of this use
 
 _How many events were returned for the month of March 2022?_
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption><p>Kibana Discover Tab</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption><p>Kibana Discover Tab</p></figcaption></figure>
 
 **1482**
 
 _What is the IP associated with the suspected user in the logs?_
 
-<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **192.166.65.54**. Only 2 different source IPs were found. Lets check out the 192.166.65.54 logs, as there are only 2 of them:
 
-<figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>source_ip : 192.166.65.54</p></figcaption></figure>
+<figure><img src=".gitbook/assets/image (2) (1).png" alt=""><figcaption><p>source_ip : 192.166.65.54</p></figcaption></figure>
 
 _The user’s machine used a legit windows binary to download a file from the C2 server. What is the name of the binary?_
 
-<figure><img src=".gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 The machine uses the [**bitsadmin**](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/bitsadmin) CLI tool
 
