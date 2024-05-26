@@ -1,10 +1,10 @@
 ---
 description: >-
-  5/25/24 - In this challenge room, we will take a simple challenge to
+  05/25/24 - In this challenge room, we will take a simple challenge to
   investigate an alert by IDS regarding a potential C2 communication.
 ---
 
-# ItsyBitsy - ELK
+# ELK - ItsyBitsy
 
 ## Intro
 
@@ -25,7 +25,7 @@ _What is the IP associated with the suspected user in the logs?_
 
 <figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-**192.166.65.54**. Only 2 different source IPs were found, but the IP with thousands of logs is probably expected, and not not the C2 connection. Lets check out the 192.166.65.54 logs:
+**192.166.65.54**. Only 2 different source IPs were found. Lets check out the 192.166.65.54 logs, as there are only 2 of them:
 
 <figure><img src=".gitbook/assets/image (2).png" alt=""><figcaption><p>source_ip : 192.166.65.54</p></figcaption></figure>
 

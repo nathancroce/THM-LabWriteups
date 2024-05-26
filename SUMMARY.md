@@ -1,3 +1,4 @@
 # Table of contents
 
-* [ItsyBitsy - ELK](README.md)
+* [ELK - ItsyBitsy](README.md)
+* [Splunk - Incident Handling](splunk-incident-handling.md)
